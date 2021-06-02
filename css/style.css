@@ -16,7 +16,6 @@ body{
     background-color: rgb(46, 45, 45);
 }
 .topnav a{
-    
     margin-left: 3rem;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -47,4 +46,33 @@ body{
     height:15px;
     margin:auto;
     
+}
+/* NAVBAR */
+header{
+    background-color:rgb(241, 210, 210) !important;
+    
+    padding:0.6rem;
+    
+}
+header a{
+    color: black !important;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+header .search-bar{
+    float:right;
+    margin-right: 3rem;
+    outline: none;
+}
+header input{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-radius: 30px;
+    padding:8px;
+}
+header button img{
+    
+  
 }
