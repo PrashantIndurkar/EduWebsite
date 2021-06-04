@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 
 }
 body{
@@ -25,19 +26,20 @@ body{
 
 }
 .applyNow{
-    color: black ;
+    color: black !important ;
     float: right;
     margin-right: 3rem;
-    background-color: rgba(132, 238, 83, 0.767);
+    background-color: #b7d6aa;
     border-radius: 60px;
     padding:5px 10px ;
     text-decoration: none;
+    font-weight: 600;
     
 
 }
 .applyNow:hover{
-    background-color: rgb(76, 255, 85);
-    color: black;
+    background-color: #a7ee8b;
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 .topnav img{
@@ -65,14 +67,20 @@ header .search-bar{
     outline: none;
 }
 header input{
-    border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
-  border-radius: 30px;
+    /* border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;*/
+    border-color: rgb(95, 94, 94);
+    border-radius: 30px;
     padding:8px;
+    outline: none;
+    width: 260px;
+    background-color:rgb(241, 210, 210) !important;
 }
-header button img{
-    
-  
+header input::placeholder{
+    color: rgb(75, 73, 73) !important;
+    font-size: 0.6rem;
+}
+header input:hover{
+    outline: none;
 }
