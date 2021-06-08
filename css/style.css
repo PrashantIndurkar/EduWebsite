@@ -52,7 +52,7 @@ body{
 }
 /* NAVBAR */
 header{
-    background-color:#d2f1d9 !important;
+    background-color:#eafde5 !important;
     padding:0.6rem;
 }
 header a{
@@ -77,7 +77,7 @@ header input{
     padding:8px;
     outline: none;
     width: 260px;
-    background-color:#d2f1d9 !important;
+    background-color:#eafde5 !important;
 }
 header input::placeholder{
     color: rgb(75, 73, 73) !important;
@@ -115,20 +115,90 @@ hero-section,.read{
     padding:12px 30px;
     font-size:1rem;
     font-weight: 600;
-    background-color: #b7d6aa;
+    background-color: #eafde5;
     border: none;
     text-decoration: none;
     text-align: center;
     color:black;
 }
+.read:hover{
+    background-color: #c5f1b5;
+    transition: 500ms;
+}
 /* ================cards====================== */
 .card-section{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    
-    
+    margin-left: 5rem;
+    margin-right: 5rem;
+    position:absolute;
 }
 .cards{
     display:flex;
+    align-items: center;
+    text-align: center;
+}
+.cards .icon{
+    height:40px;
+    margin-top:1rem ;
+    margin-bottom:1rem;
+    
+}
+.card1{
+    background-color: #ffffff !important;
+    margin-top:-3rem;
+    margin-right:20px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);height: 14rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2{
+    background-color: #ffffff !important;
+    margin-top:-3rem;
+    margin-right:20px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    height: 14rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card3{
+    background-color: #ffffff !important;
+    margin-top:-3rem;
+    margin-right:20px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);height: 14rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cards h3{
+    font-size: 20px; 
 
+}
+.card1:hover{
+    background-color: rgb(239, 253, 239) !important;
+    transition: 500ms;
+}
+.card2:hover{
+    background-color: rgb(239, 253, 239)!important;
+    transition: 500ms;
+}
+.card3:hover{
+    background-color: rgb(239, 253, 239) !important;
+    transition: 500ms;
+}
+.cards,p{
+    padding: 20px;
+    font-size: 17px;
+    margin-bottom: 0.4rem;
+}
+
+.card-button{
+    text-decoration: none;
+    border: 3px solid #8eaa81;
+    background-color: #a0d38b;
+    padding: 10px;
+    color:black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.card-button:hover{
+    background-color: #a5d68f;
+    transition: 500ms;
 }
