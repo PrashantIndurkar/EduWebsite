@@ -121,3 +121,14 @@ hero-section,.read{
     text-align: center;
     color:black;
 }
+/* ================cards====================== */
+.card-section{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+    
+}
+.cards{
+    display:flex;
+
+}
