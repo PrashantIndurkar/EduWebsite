@@ -124,12 +124,17 @@ hero-section,.read{
     transition: 500ms;
 }
 /* ================cards====================== */
+section-card{
+    height: 50vh;
+}
 .card-section{
-    margin-left: 5rem;
-    margin-right: 5rem;
+    display: block;
     position:absolute;
+ 
 }
 .cards{
+    margin-left: 5rem;
+    margin-right: 5rem;
     display:flex;
     align-items: center;
     text-align: center;
@@ -166,8 +171,7 @@ hero-section,.read{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .cards h3{
-    font-size: 20px; 
-
+    font-size: 20px;
 }
 .card1:hover{
     background-color: rgb(239, 253, 239) !important;
@@ -186,7 +190,6 @@ hero-section,.read{
     font-size: 17px;
     margin-bottom: 0.4rem;
 }
-
 .card-button{
     text-decoration: none;
     border: 3px solid #8eaa81;
@@ -199,4 +202,17 @@ hero-section,.read{
 .card-button:hover{
     background-color: #a5d68f;
     transition: 500ms;
+}
+/* =======================welcome============================= */
+.welcome{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 20rem;
+    
+}
+/* .welcome-text{
+
+} */
+.welcome-img{
+    background: url(/images/team.jpg);
 }
